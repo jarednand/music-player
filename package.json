@@ -1,0 +1,19 @@
+{
+  "name": "music-player",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Music player.",
+  "scripts": {
+    "backend": "npm run dev --workspace=@music-player/backend",
+    "frontend": "npm run dev --workspace=@music-player/frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "author": "Jared Nand",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "baseUrl": "src",
+    "moduleResolution": "Node"
+  }
+}

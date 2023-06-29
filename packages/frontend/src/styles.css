@@ -1,0 +1,10 @@
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.cover {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+}
