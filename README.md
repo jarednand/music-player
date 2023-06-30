@@ -30,3 +30,9 @@ To run the monorepo locally, do the following:
   - Start the frontend application at: `http://localhost:8000`
   - Start the backend application at: `http://localhost:8100`
 5. Visit `http://localhost:8000` in your browser to view the application
+
+## License
+
+[MIT](https://opensource.org/license/mit/)
+
+Copyright (c) 2023-present, Jared Nand
