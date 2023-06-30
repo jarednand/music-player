@@ -1,8 +1,8 @@
-## Overview
+# Overview
 
 A simple music player.
 
-# Project Structure
+## Project Structure
 
 This project is structured as monorepo using npm workspaces.
 
@@ -10,7 +10,7 @@ The monorepo consists of the following packages:
 - **@music-player/frontend**: Client-side application built with React, TypeScript, Vite, and Vitest
 - **@music-player/backend**: Server-side application built with Node.js and Express.js
 
-# How it Works
+## How it Works
 
 The application consists of 2 routes:
 - **/**: Home page, which renders a list of songs.
@@ -20,7 +20,7 @@ When a page is rendered, a request is made to the server to fetch the songs or i
 
 The audio and cover image files for each song are located here: **music-player/packages/frontend/public/songs**.
 
-# Running Locally
+## Running Locally
 
 To run the monorepo locally, do the following:
 1. Clone the project
@@ -30,4 +30,3 @@ To run the monorepo locally, do the following:
   - Start the frontend application at: `http://localhost:8000`
   - Start the backend application at: `http://localhost:8100`
 5. Visit `http://localhost:8000` in your browser to view the application
-
