@@ -13,7 +13,7 @@ The monorepo consists of the following packages:
 ## How it Works
 
 The application consists of 2 routes:
-- **/**: Home page, which renders a list of songs.
+- **/**: Home page, which renders a list of songs
 - **/songs/:id**: Song page, which renders an individual song with an audio player
 
 When a page is rendered, a request is made to the server to fetch the songs or individual song information.
